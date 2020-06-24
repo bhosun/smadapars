@@ -1,0 +1,53 @@
+/* .navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;
+} */
+
+.navbar-nav {
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.agba-gba img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.agbaju {
+    /* padding-top: 10px; */
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+
+
+@media (max-width: 767.98px) {
+    .jumbotron {
+        background-color:rgb(179, 175, 175);
+    }
+
+    .jumbotron .container-fluid .text-center {
+        text-align: left;
+    }
+
+    .part2 {
+        display: block;
+    }
+
+    .menu {
+        padding-top: 50px;
+    }
+}
