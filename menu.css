@@ -1,16 +1,20 @@
 
-/* .chikni img{
-    width: 80%;
-    height: auto;
-    padding-left: 200px;
-    padding-bottom: 50px;
-    /* width: 100%;
-    max-width: 400px;
-    height: auto; */
-/* }  */
-
 body {
     background-color: #fffafa;
+}
+
+h4 {
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 25px;
+}
+
+.form-control {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 20px;
+}
+
+.head {
+    font-family: 'Permanent Marker', cursive;
 }
 
 div .chikni {
@@ -42,7 +46,6 @@ div .chikni {
 }
 
 img .chakana {
-    /* position:relative; */
     max-width:100%;
     max-height:100%;
     margin-top:-50%;
