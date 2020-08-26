@@ -14,7 +14,8 @@ h4 {
 }
 
 .head {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration-color: black;
 }
 
 div .chikni {
@@ -35,6 +36,7 @@ div .chikni {
 
 .container-fluid .text-center a{
     text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .agbaju {
@@ -65,9 +67,17 @@ img .chakana {
 
 @media(max-width: 767.98px) {
     .chikni img {
-        width: 100%;
+        width: 150%;
         height: none;
-        max-width: 400px;
+        max-width: 395px;
         height: auto;
     } 
+
+    .agbaju {
+        padding-top: 10px;
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
 } 
