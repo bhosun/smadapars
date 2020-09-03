@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+.kampa {
+    width: 700px;
+}
+
 .part2 {
     display: flex;
     justify-content: space-around;
@@ -16,6 +20,10 @@
     font-size: 50px;
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+.smada-logo {
+    width: 120px;
 }
 
 .head {
@@ -35,6 +43,8 @@
 .p-next {
     font-family: 'Libre Caslon Text', serif;
     font-size: 15px;
+    word-wrap: break-word;
+    width: 550px;
 }
 
 .agba-gba img{
@@ -57,7 +67,7 @@
 
 @media (max-width: 767.98px) {
     .jumbotron {
-        background-color:rgb(255, 251, 251);
+        background-color:rgb(212, 209, 209);
     }
 
     .jumbotron .container-fluid .text-center {
@@ -90,6 +100,10 @@
         outline-color: none;
     }
 
+    .p-next {
+        width: 410px;
+    }
+
     .agbaju {
         padding-top: 10px;
         display: flex;
@@ -98,3 +112,24 @@
         padding-bottom: 20px;
     }
 }
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    .part2 {
+        display: table-row-group;
+        text-align: center;
+        margin: auto;
+    }
+
+    .first-side {
+        padding-left: 70px;
+    }
+
+    .menu {
+        padding-left: 70px;
+        padding-top: 50px;
+    }
+
+    .p-next {
+        width: 700px;
+    }
+} 

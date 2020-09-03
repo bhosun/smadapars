@@ -3,6 +3,10 @@ body {
     background-color: #fffafa;
 }
 
+a {
+    text-decoration-color: red;
+}
+
 h4 {
     font-family: 'Libre Caslon Text', serif;
     font-size: 25px;
@@ -11,20 +15,18 @@ h4 {
 .form-control {
     font-family: 'Londrina Solid', cursive;
     font-size: 20px;
-}
+} 
 
-.head {
+.head a {
+    color: black;
+    text-decoration: none; 
     font-family: 'Open Sans Condensed', sans-serif;
-    text-decoration-color: black;
+    font-size: 25px;
 }
 
-div .chikni {
-    position:absolute;
-    max-width:45%;
-    max-height:45%;
-    top:50%;
-    left:50%;
-    overflow:visible;
+.chakana {
+    width: 600px;
+    margin-left: 220px;
 }
 
 .navbar-nav {
@@ -34,24 +36,15 @@ div .chikni {
     justify-content: center;
 }
 
-.container-fluid .text-center a{
-    text-decoration: none;
-    font-family: 'Open Sans Condensed', sans-serif;
+.smada-logo {
+    width: 120px;
 }
 
 .agbaju {
-    /* padding-top: 10px; */
     display: flex;
     width: 30%;
     justify-content: space-around;
     padding-bottom: 20px;
-}
-
-img .chakana {
-    max-width:100%;
-    max-height:100%;
-    margin-top:-50%;
-    margin-left:-50%;
 }
 
 .dropdown {
@@ -66,12 +59,29 @@ img .chakana {
 }
 
 @media(max-width: 767.98px) {
-    .chikni img {
-        width: 150%;
-        height: none;
-        max-width: 395px;
-        height: auto;
-    } 
+    .jumbotron {
+        background-color:rgb(212, 209, 209);
+    }
+
+    .chakana {
+        width: 430px;
+        margin-left: -20px;
+    }
+
+    .agbaju {
+        padding-top: 10px;
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+} 
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    .chakana {
+        width: 500px;
+        margin-left: 70px;
+    }
 
     .agbaju {
         padding-top: 10px;
