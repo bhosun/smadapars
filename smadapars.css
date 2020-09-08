@@ -95,6 +95,10 @@
         font-size: 28px;
     }
 
+    .respond {
+        margin-right: 50px;
+    }
+
     .navbar-toggler {
         background-color: white;
         outline-color: none;
